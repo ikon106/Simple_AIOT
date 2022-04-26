@@ -24,7 +24,7 @@ public class ItemInit {
             -> new FuelItem(new Item.Properties().tab(ModCreativeTab.instance), 200));
 
     public static final RegistryObject<Item> DIAMONDAIOT = ITEMS.register("diamond_aiot", ()
-            -> new AiotItem(AiotTiers.DIAMOND,5F,-3.5F, new Item.Properties().tab(ModCreativeTab.instance)));
+            -> new ShovelItem(AiotTiers.DIAMONDAIOT,5F,-3.5F, new Item.Properties().tab(ModCreativeTab.instance)));
 
     public static class ModCreativeTab extends CreativeModeTab {
         private ModCreativeTab(int index, String label) {

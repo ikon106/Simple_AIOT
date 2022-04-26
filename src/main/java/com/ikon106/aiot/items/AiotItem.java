@@ -7,10 +7,9 @@ import net.minecraft.world.item.ItemStack;
 import net.minecraft.world.item.Tier;
 import net.minecraft.world.level.block.state.BlockState;
 import net.minecraftforge.common.ToolAction;
-import org.checkerframework.checker.nullness.qual.NonNull;
+import net.minecraftforge.common.ToolActions;
 
 import java.util.Set;
-
 
 import static net.minecraftforge.common.ToolActions.*;
 

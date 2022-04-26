@@ -12,7 +12,7 @@ import net.minecraftforge.common.data.ExistingFileHelper;
 import javax.annotation.Nullable;
 
 public class AIOTTags extends BlockTagsProvider{
-    public static final TagKey<Block> MINABLE_WITH_AIOT = BlockTags.create(new ResourceLocation("forge", "minable/aiot"));
+    public static final TagKey<Block> MINABLE_WITH_AIOT = BlockTags.create(new ResourceLocation("forge", "mineable/aiot"));
 
     public AIOTTags(DataGenerator generator, @Nullable ExistingFileHelper helper){
         super(generator, AiotMain.MOD_ID, helper);
